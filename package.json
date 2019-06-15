@@ -1,0 +1,32 @@
+{
+  "name": "eng_vocab_foreal",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native run-android",
+    "startAdb": "react-native start",
+    "start2": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "^0.59.1",
+    "react-native-auto-height-image": "^1.1.0",
+    "react-native-gesture-handler": "^1.3.0",
+    "react-native-sound-player": "^0.9.0",
+    "react-native-svg": "^9.5.1",
+    "react-navigation": "^3.11.0",
+    "react-router-native": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/runtime": "7.4.5",
+    "babel-jest": "24.8.0",
+    "jest": "24.8.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
